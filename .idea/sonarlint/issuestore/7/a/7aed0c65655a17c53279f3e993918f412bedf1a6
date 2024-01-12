@@ -1,7 +1,0 @@
-
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‚ÉïÏ1
-b
-java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8¶ÕÔïÏ1
-f
-java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8·ÕÔïÏ1

@@ -1,3 +1,4 @@
-my-app:
-    message: Hello from parent!
-    number: 42
+myapp:
+    app:
+        name: parent
+        description: parent app

@@ -1,3 +1,6 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(´ùÖ–üÿÿÿÿ8â­ÃíÏ1
-F	java:S106"+Replace this use of System.out by a logger.(ïØöb8ã­ÃíÏ1
+_
+java:S6813
+"BRemove this field injection and use constructor injection instead.(êæÄŞ8úşöÏ1
+G	java:S106"+Replace this use of System.out by a logger.(ÙŠ‘¸8â­ÃíÏ1
+L	java:S106"+Replace this use of System.out by a logger.(“ïË¹ûÿÿÿÿ8ã­ÃíÏ1

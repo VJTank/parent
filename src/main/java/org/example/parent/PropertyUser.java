@@ -1,17 +1,19 @@
 package org.example.parent;
 
-import org.example.child.MyAppProperties;
+import org.example.child.AppProperties;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PropertyUser {
 
-    private MyAppProperties properties;
+    @Autowired
+    private AppProperties properties;
 
     public String useProperties() {
-        System.out.println("Message from child: " + properties.getMessage());
-        System.out.println("Number from child: " + properties.getNumber());
-        return "Message from parent: " + properties.getMessage() + "Number from parent: " + properties.getNumber();
+        System.out.println("Message from child: " + properties.getName());
+        System.out.println("Number from child: " + properties.getDescription());
+        return "Message from parent: " + properties.getName() + "Number from parent: " + properties.getDescription();
     }
 
 
